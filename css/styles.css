@@ -37,6 +37,12 @@ p {
     margin-bottom: 20px;
 }
 
+/* create grid-container for table */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto
+}
+
 /* Media query for screens 900px or less */
 @media screen and (max-width: 900px) {
     body {
