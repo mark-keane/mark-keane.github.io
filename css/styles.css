@@ -8,7 +8,7 @@ body, h1, p {
 
 /* Global styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Garamond, serif;
     font-size: 16px;
     line-height: 1.5;
     color: #333;
@@ -24,9 +24,55 @@ p {
     margin-bottom: 20px;
 }
 
-/* Custom styles for index.html */
+/* Custom styles */
 .centre {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.box {
+    border: 1px solid #333;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Media query for screens 900px or less */
+@media screen and (max-width: 900px) {
+    body {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+}
+
+/* Media query for screens 600px or less */
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .centre {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%; /* Adjust the width of images */
+    }
+}
+
+/* Media query for screens 400px or less */
+@media screen and (max-width: 400px) {
+    body {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
 }
