@@ -25,3 +25,8 @@ p {
 }
 
 /* Custom styles for index.html */
+.centre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
