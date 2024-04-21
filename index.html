@@ -14,11 +14,27 @@
     <h2 class="centre">UNDER CONSTRUCTION</h2>
     <p>Testing 123</p>
 
-    <nav class="centre">
-        <a href="index.html">Home</a> |
-        <a href="blog.html">Blog</a> |
-        <a href="about.html">About</a> |
-        <a href="contact.html">Contact</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="./index.html">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
     <div class="grid-container">
@@ -31,9 +47,7 @@
         <div>Row 3, Column 1</div>
         <div>Row 3, Column 2</div>
         <div>Row 3, Column 3</div>
-    </div
-    
-    >
+    </div>
 
     <h3 class="box">Today's Post</h3>
     <p>First paragraph</p>
@@ -42,5 +56,12 @@
     <h3>Yesterday's Post</h3>
     <p>Second paragraph</p>
     <img src="images/sam.jpg" alt="Second Image" width="500" class="centre">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
