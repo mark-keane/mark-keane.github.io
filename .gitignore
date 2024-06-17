@@ -1,2 +1,6 @@
-# Dependency directories (e.g., Node.js)
-node_modules/
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+Gemfile.lock
