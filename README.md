@@ -1,2 +1,0 @@
-# Basic Blog 
-## UNDER CONSTRUCTION 
